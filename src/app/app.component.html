@@ -1,5 +1,7 @@
-<main class="main">
 <h1>{{title}}</h1>
-<app-heroes></app-heroes>
-</main>
+<nav style="display: flex; flex-direction: column; gap: 1rem;">
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+</nav>
 <router-outlet></router-outlet>
+<app-hero-messages></app-hero-messages>
